@@ -36,7 +36,7 @@ export async function getSpotInterpretation(
 
       Beach amenities: ${beach.beachAmenities ? JSON.stringify(beach.beachAmenities) : 'Not specified'}
 
-      Please provide a brief, friendly explanation of what these conditions mean for swimming, sunbathing, and general beach activities. Include safety tips if relevant. Keep it under 100 words.
+      Please provide a brief, friendly explanation of what these conditions mean for swimming, sunbathing, and general beach activities - and include friendliness for kids. Keep it under 100 words.
     `;
 
     console.log('Sending beach prompt:', beachPrompt);
