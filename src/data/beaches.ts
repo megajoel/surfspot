@@ -30,12 +30,12 @@ export const beaches = [
     }
   },
   {
-    name: "Sandon Point",
-    direction: "ENE",
-    bestConditions: ["S swell", "SE swell", "W winds"],
-    coordinates: {
-      lat: -34.3156,
-      lng: 150.9240
+    name: "Sandon Point (Surf Club)",
+    direction: "SE",
+    bestConditions: ["E swell", "SE swell", "NE winds"],
+    coordinates: {  
+      lat: -34.330929,
+      lng: 150.928245
     },
     description: "Famous right-hand point break. Works best with southern swells and offshore winds.",
     beachAmenities: {
